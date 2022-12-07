@@ -2,17 +2,19 @@
 <div class="div_Wrapper_Form">
   <form class="form_Form1">
     <div>
-      <label for="email"> E-mail </label><br />
-      <input id="email" type="text" formControlName="email" />
+      <label class="label_email" for="email"> E-mail </label><br />
+      <input class="input_email" type="text" formControlName="email" />
     </div>
 
     <div>
-      <label for="password"> Password </label><br />
-      <input id="password" type="text" formControlName="password" />
+      <label class="label_password" for="password"> Password </label><br />
+      <input class="input_password" type="text" formControlName="password" />
     </div>
 
-    <button class="button" type="submit">Login</button>
+    <button class="button_Login" type="submit">Login</button>
   </form>
 
-  <button class="button" type="submit" (click)="GoToSignUp()">Sign up</button>
+  <button class="button_SignUp" type="submit" (click)="GoToSignUp()">
+    Sign up
+  </button>
 </div>
