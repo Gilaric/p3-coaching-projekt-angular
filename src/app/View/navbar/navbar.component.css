@@ -44,6 +44,7 @@ p {
   background-color: #282a35;
 }
 
+/* Gives all buttons on hover a darker color! */
 .div_AllButtons button:hover {
   cursor: pointer;
   background-color: rgb(19, 19, 19);
@@ -55,13 +56,6 @@ p {
   position: relative;
 
   display: inline-block;
-}
-
-/**/
-.button_Coaches_Dropdown {
-}
-
-.button_Coaches_Dropdown:hover {
 }
 
 /**/
@@ -92,28 +86,4 @@ p {
 /**/
 .div_Coaches_Dropdown:hover .div_Coaches_DropdownContent {
   display: block;
-}
-
-.button_BookSession {
-}
-
-.button_BookSession:hover {
-}
-
-.button_BecomeCoach {
-}
-
-.button_BecomeCoach:hover {
-}
-
-.button_Contact {
-}
-
-.button_Contact:hover {
-}
-
-.button_AboutUs {
-}
-
-.button_AboutUs:hover {
 }

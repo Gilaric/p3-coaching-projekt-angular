@@ -16,6 +16,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: left;
+  margin-left: 8px;
 }
 
 .h1_TitleText {
