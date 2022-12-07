@@ -1,12 +1,9 @@
 body {
-  margin: 0 auto;
-  /* or: align-self: center */
-  max-width: 80ch;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 p {
   margin: 0;
+}
+.div_Wrapper_Content {
+  flex: 1;
 }
