@@ -12,17 +12,18 @@ p {
 }
 
 .label_email {
-  padding-top: 20px;
 }
 
 .input_email {
+  margin-top: 2px;
 }
 
 .label_password {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .input_password {
+  margin-top: 2px;
 }
 
 .button_Login {
