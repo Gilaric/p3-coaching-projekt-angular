@@ -1,0 +1,24 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<div class="div_Navbar">
+  <div class="div_AllButtons">
+    <div class="div_Coaches_Dropdown">
+      <button class="button_Coaches_Dropdown" [routerLink]="['/coaches']">
+        Coaches
+      </button>
+      <div class="div_Coaches_DropdownContent">
+        <a [routerLink]="['/lolcoach']">LOL</a>
+        <a [routerLink]="['/tf2coach']">TF2</a>
+      </div>
+    </div>
+    <button class="button_BookSession" [routerLink]="['/book-session']">
+      Book Session
+    </button>
+    <button class="button_BecomeCoach" [routerLink]="['/become-coach']">
+      Become Coach
+    </button>
+    <button class="button_Contact" [routerLink]="['/contact']">Contact</button>
+    <button class="button_AboutUs" [routerLink]="['/about-us']">
+      About Us
+    </button>
+  </div>
+</div>

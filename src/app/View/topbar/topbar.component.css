@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.div_Wrapper_TitleText {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1_TitleText {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**/
+.div_Wrapper_Login_Button {
+  overflow: hidden;
+  height: 75px;
+  width: 2;
+}
+
+.div_Login_Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  overflow: hidden;
+  height: 75px;
+}
+
+.button_Login {
+  overflow: hidden;
+  border: none;
+  background-color: #04aa6d;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  outline: none;
+  text-align: center;
+}
+
+.button_Login:hover {
+  background-color: #059460;
+  cursor: pointer;
+}
+
