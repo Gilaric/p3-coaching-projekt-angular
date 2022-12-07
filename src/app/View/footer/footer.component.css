@@ -10,6 +10,4 @@ p {
   height: 100px;
   background-color: red;
   width: 100%;
-  position: fixed;
-  bottom: 0;
 }

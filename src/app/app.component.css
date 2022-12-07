@@ -4,3 +4,9 @@ body {
 html {
   margin: 0;
 }
+
+.div_Wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

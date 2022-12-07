@@ -2,8 +2,37 @@
 body {
   margin: 0;
 }
+
 html {
   margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h4 {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
