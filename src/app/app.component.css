@@ -1,8 +1,6 @@
-p {
-  font-family: Lato;
+body {
+  margin: 0;
 }
-
-.div_TEST {
-  background-color: red;
-  height: 500px;
+html {
+  margin: 0;
 }

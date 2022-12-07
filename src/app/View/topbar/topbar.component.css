@@ -6,11 +6,16 @@ p {
   margin: 0;
 }
 
+.div_Wrapper_Topbar {
+  display: flex;
+  width: 100%;
+}
+
 .div_Wrapper_TitleText {
-  width: 210px;
+  width: 75%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .h1_TitleText {
