@@ -26,7 +26,7 @@ a {
 .div_Wrapper_Login_Button {
   overflow: hidden;
   height: 75px;
-  width: 2;
+  width: 200px;
 }
 
 .div_Login_Button {
@@ -58,4 +58,3 @@ a {
   background-color: #059460;
   cursor: pointer;
 }
-

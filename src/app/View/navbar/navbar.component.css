@@ -7,7 +7,7 @@ body {
 p {
   margin: 0;
 }
-app-navbar .div_Navbar {
+.div_Navbar {
   top: 0;
   position: sticky;
   overflow: visible;
@@ -17,21 +17,21 @@ app-navbar .div_Navbar {
   height: 44px;
 }
 
-app-navbar .div_Navbar ul {
+.div_Navbar ul {
   padding-left: 10px;
   list-style-type: none;
 }
 
-app-navbar .div_Navbar ul li a {
+.div_Navbar ul li a {
   color: white;
 }
 
-app-navbar .div_AllButtons {
+.div_AllButtons {
   width: 100%;
   height: 44px;
 }
 
-app-navbar .div_AllButtons button {
+.div_AllButtons button {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   font-weight: 600;
@@ -44,28 +44,28 @@ app-navbar .div_AllButtons button {
   background-color: #282a35;
 }
 
-app-navbar .div_AllButtons button:hover {
+.div_AllButtons button:hover {
   cursor: pointer;
   background-color: rgb(19, 19, 19);
 }
 
 /**/
 /**/
-app-navbar .div_Coaches_Dropdown {
+.div_Coaches_Dropdown {
   position: relative;
 
   display: inline-block;
 }
 
 /**/
-app-navbar .button_Coaches_Dropdown {
+.button_Coaches_Dropdown {
 }
 
-app-navbar .button_Coaches_Dropdown:hover {
+.button_Coaches_Dropdown:hover {
 }
 
 /**/
-app-navbar .div_Coaches_DropdownContent {
+.div_Coaches_DropdownContent {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -78,42 +78,42 @@ app-navbar .div_Coaches_DropdownContent {
 }
 
 /**/
-app-navbar .div_Coaches_DropdownContent a {
+.div_Coaches_DropdownContent a {
   color: white;
   padding: 10px 10px;
   text-decoration: none;
   display: block;
 }
 
-app-navbar .div_Coaches_DropdownContent a:hover {
+.div_Coaches_DropdownContent a:hover {
   background-color: rgb(19, 19, 19);
 }
 
 /**/
-app-navbar .div_Coaches_Dropdown:hover .div_Coaches_DropdownContent {
+.div_Coaches_Dropdown:hover .div_Coaches_DropdownContent {
   display: block;
 }
 
-app-navbar .button_BookSession {
+.button_BookSession {
 }
 
-app-navbar .button_BookSession:hover {
+.button_BookSession:hover {
 }
 
-app-navbar .button_BecomeCoach {
+.button_BecomeCoach {
 }
 
-app-navbar .button_BecomeCoach:hover {
+.button_BecomeCoach:hover {
 }
 
-app-navbar .button_Contact {
+.button_Contact {
 }
 
-app-navbar .button_Contact:hover {
+.button_Contact:hover {
 }
 
-app-navbar .button_AboutUs {
+.button_AboutUs {
 }
 
-app-navbar .button_AboutUs:hover {
+.button_AboutUs:hover {
 }
