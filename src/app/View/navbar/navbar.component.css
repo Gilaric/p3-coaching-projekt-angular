@@ -27,17 +27,22 @@ p {
 }
 
 .div_AllButtons {
-  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex: 1;
   height: 44px;
 }
 
 .div_AllButtons button {
+  display: flexbox;
+  flex-grow: 1;
+  flex-shrink: 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   font-weight: 600;
   padding-left: 15px;
   padding-right: 15px;
-  display: inline-block;
   height: 44px;
   color: white;
   border: none;
@@ -61,7 +66,7 @@ p {
 /**/
 .div_Coaches_DropdownContent {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
   display: none;
   position: absolute;
@@ -69,6 +74,7 @@ p {
   min-width: 90px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  width: 91px;
 }
 
 /**/
@@ -88,12 +94,77 @@ p {
   display: block;
 }
 
+@media only screen and (max-width: 538px) {
+  .div_Navbar {
+    height: 40px;
+  }
 
-@media only screen and (max-width: 600px) {
+  .div_AllButtons button {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 492px) {
+  .div_Navbar {
+    height: 70px;
+  }
+
+  .div_AllButtons {
+    display: inline-block;
+  }
+
+  .div_AllButtons button {
+    display: inline-block;
+    font-size: 15.1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 403px) {
+  .div_Navbar {
+    height: 70px;
+  }
+
+  .div_AllButtons {
+    display: inline-block;
+  }
+
+  .div_AllButtons button {
+    display: inline-block;
+    font-size: 15.1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .div_Navbar {
+    height: 150px;
+  }
+
+  .div_AllButtons {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .div_AllButtons button {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+  }
+
+  .div_Coaches_Dropdown {
+    width: 100%;
+  }
+
+  .button_Coaches_Dropdown {
+    width: 100%;
+  }
 }

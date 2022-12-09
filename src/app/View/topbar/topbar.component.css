@@ -15,7 +15,7 @@ p {
 
 .div_Wrapper_TitleText {
   height: 75px;
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-shrink: 1;
   flex-grow: 1;
@@ -80,11 +80,108 @@ a {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 710px) {
+  .div_Wrapper_TitleText img {
+    display: flex;
+    align-items: center;
+    height: 62px;
+    width: 110.22px;
+  }
+
+  .div_Wrapper_TitleText {
+    width: 60%;
+  }
+
+  .div_Login_Button {
+    width: 40%;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 538px) {
+  .div_Wrapper_TitleText img {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 88.89px;
+  }
+
+  .div_Wrapper_TitleText {
+    width: 50%;
+  }
+
+  .div_Login_Button {
+    width: 50%;
+  }
+
+  .button_Login {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
+
+  .h1_TitleText {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 404px) {
+  .div_Wrapper_TitleText img {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 71.11px;
+  }
+
+  .div_Wrapper_TitleText {
+    width: 50%;
+  }
+
+  .div_Login_Button {
+    width: 50%;
+  }
+
+  .button_Login {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+  }
+
+  .h1_TitleText {
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .div_Wrapper_TitleText {
+    width: 50%;
+  }
+
+  .div_Login_Button {
+    width: 50%;
+  }
+
+  .button_Login {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 14px;
+  }
+  .h1_TitleText {
+    font-size: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
 }
