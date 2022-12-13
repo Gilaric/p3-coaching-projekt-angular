@@ -1,2 +1,51 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <p style="margin: 0px;">book-session works!</p>
+<div class="div_Wrapper_Form">
+  <form class="form_Form1">
+    <div>
+      <label for="games">Choose a game:</label>
+      <select name="games" id="games">
+        <optgroup label="Games">
+          <option value="tf2">TF2</option>
+          <option value="lol">League of Legends</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div>
+      <label for="games">Choose a coach:</label>
+      <select name="ChooseLOLCoach" id="select_ChooseLOLCoach">
+        <optgroup label="LOL coaches">
+          <option value="MarcusCoach">MarcusCoach</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div>
+      <label for="games">Choose a coach:</label>
+      <select name="ChooseTF2Coach" id="select_ChooseTF2Coach">
+        <optgroup label="TF2 coaches">
+          <option value="PhilipCoach">PhilipCoach</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div>
+      <label class="label_DiscordUsername" for="DiscordUsername">
+        Discord username: </label
+      ><br />
+      <input
+        class="input_DiscordUsername"
+        type="text"
+        formControlName="DiscordUsername"
+      />
+
+      <br />
+
+      <label class="label_Email" for="email"> Email: </label><br />
+      <input class="input_Email" type="text" formControlName="email" />
+    </div>
+
+    <button class="Book" type="submit">Book session</button>
+  </form>
+</div>
