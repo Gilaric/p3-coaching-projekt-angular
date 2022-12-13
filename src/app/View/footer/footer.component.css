@@ -11,3 +11,15 @@ p {
   background-color: red;
   width: 100%;
 }
+
+.div_IconAndTitle {
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+
+.div_SocialMediaIcons {
+  width: 500px;
+  height: 200px;
+  display: flex;
+}
