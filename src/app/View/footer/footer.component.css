@@ -7,19 +7,67 @@ p {
 }
 
 .Wrapper_Footer {
-  height: 200px;
-  background-color: red;
+  height: 300px;
+  background-color: white;
   width: 100%;
+  border-top: 2px solid rgb(94, 94, 94);
+}
+
+.div_columns {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-shrink: 1;
 }
 
 .div_IconAndTitle {
+  background-color: aqua;
   width: 200px;
-  height: 100%;
+  height: 15%;
   display: flex;
+  flex-shrink: 1;
 }
 
-.div_SocialMediaIcons {
-  width: 500px;
-  height: 200px;
+.FooterIcon {
   display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.div_Wrapper_SocialMediaIcons {
+  background-color: green;
+  display: grid;
+  height: 200px;
+  width: 180px;
+}
+
+.div_SocialMedia_Title {
+  background-color: orange;
+  width: 103px;
+  height: 25px;
+}
+
+.div_SocialMedia_Column1 {
+  background-color: red;
+  width: 80px;
+  height: 100%;
+}
+
+.div_SocialMedia_Column2 {
+  background-color: rgb(39, 142, 177);
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-flow: column;
+}
+
+.div_ContactUs {
+  background-color: red;
+}
+
+.div_GitHubIssues {
+  background-color: orange;
 }
