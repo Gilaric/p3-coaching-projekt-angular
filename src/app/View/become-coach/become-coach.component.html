@@ -1,5 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <p style="margin: 0px;">become-coach works!</p>
+<br />
 <div class="div_Wrapper_Form">
   <form class="form_Form1">
     <label for="games">Choose a game:</label>
@@ -9,15 +10,27 @@
         <option value="lol">League of Legends</option>
       </optgroup>
     </select>
+    <br />
+    <br />
     <div>
       <label class="label_DiscordUsername" for="DiscordUsername">
-        Discord username: </label
-      ><br />
+        Discord username:
+      </label>
+      <br />
       <input
         class="input_DiscordUsername"
         type="text"
         formControlName="DiscordUsername"
       />
+      <br />
+      <br />
+      <label class="label_UploadCV" for="UploadCV"> Upload CV </label>
+      <br />
+      <div>
+        <button class="btn">Upload a file</button>
+        <input class="input_UploadCV" type="file" formControlName="UploadCV" />
+      </div>
+      <br />
     </div>
 
     <button class="Book" type="submit">Book session</button>
