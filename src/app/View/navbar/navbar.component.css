@@ -31,6 +31,7 @@ p {
   flex-grow: 1;
   flex-shrink: 0;
   flex: 1;
+  width: 60%;
   height: 44px;
 }
 
