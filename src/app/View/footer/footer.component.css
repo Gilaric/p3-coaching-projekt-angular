@@ -30,6 +30,7 @@ p {
 }
 
 .div_columns {
+  font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
   flex-flow: row;
   height: 100%;
@@ -41,8 +42,8 @@ p {
 
 .div_Wrapper_SocialMediaIcons {
   display: grid;
-  grid-template-rows: 20% 80%;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 30px 170px;
+  grid-template-columns: 90px 100%;
   background-color: green;
   height: 100%;
   width: 100%;
@@ -62,19 +63,59 @@ p {
   background-color: rgb(39, 142, 177);
 }
 
+.div_SocialMedia_Column1 i {
+  width: 21px;
+  padding-right: 1px;
+}
+
+.div_SocialMedia_Column1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.div_SocialMedia_Column2 a {
+  text-decoration: none;
+  color: black;
+}
+
 .div_ContactUs {
   width: 100%;
   display: grid;
-  grid-template-rows: 20% 20% 20%;
+  grid-template-rows: 30px 30px 30px;
+  grid-template-columns: 100%;
   background-color: lightgreen;
 }
 
 .div_ContactUsTitle {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   background-color: aquamarine;
 }
 
-.div_TOS_PrivacyP {
+.div_ContactUs div {
+  display: inline-block;
+}
+
+.div_ContactUs i {
+  width: 21px;
+  padding-right: 1px;
+}
+
+.div_Information {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 30px 30px 30px 30px;
+  grid-template-columns: 100%;
   background-color: orange;
+}
+
+.div_InformationTitle {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: green;
+}
+
+.div_Information a {
+  text-decoration: none;
+  color: black;
 }
